@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #71e8f8;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 .calculator {
-    background-color: #fff;
+    background-color: #6cf8fd;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
