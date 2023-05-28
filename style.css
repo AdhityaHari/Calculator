@@ -1,0 +1,123 @@
+body {
+    background-color: #71e8f8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    background-color: #6cf8fd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 300px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.calculator .result {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+}
+
+.calculator button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 50px;
+}
+
+.calculator button:hover {
+    background-color: #f0f0f0;
+}
+
+.calculator button.operator {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.calculator button.operator:hover {
+    background-color: #ff8c00;
+}
+
+.calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.screen {
+    background-color: #f9f9f9;
+    color: #555;
+    font-size: 36px;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn {
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 60px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+.operator {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.operator:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
